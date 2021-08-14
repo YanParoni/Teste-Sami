@@ -1,20 +1,7 @@
 
 import {
   BASE_URL,
-  BASE_NAME,
-  BASE_ID,
-  ID_POWER,
-  ID_BIOGRAPHY,
-  ID_APPEARANCE,
-  ID_WORK,
-  ID_CONNECTIONS,
-  ID_IMAGE
 } from './urls';
-
-import {
-  requestHeroId,
-  requestHeroIdSucess,
-} from '../actions';
 
 export const getRandomID=(min, max)=> {
   min = Math.ceil(min);

@@ -7,7 +7,11 @@ export default class Input extends Component {
   render() {
     return (
       <>
-        <img className='col-10 col-xl-7 hero-photo'src={this.props.src} width="100%"/>
+        <img
+          className="col-10 col-xl-7 hero-photo"
+          src={this.props.src}
+          width="100%"
+        />
       </>
     );
   }

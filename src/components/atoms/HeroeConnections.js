@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 export default class HeroeConnections extends Component {
-  constructor(props){
+  constructor(props) {
     super(props);
   }
   render() {
@@ -9,15 +9,12 @@ export default class HeroeConnections extends Component {
     return (
       <div>
         <h3>Connections</h3>
-        <div >
+        <div>
           Group affiliation:
           {connections['group-affiliation']}
         </div>
-        <div>
-          Relatives: {connections.relatives}
-        </div>
+        <div>Relatives: {connections.relatives}</div>
       </div>
-    )
+    );
   }
-  }
-
+}

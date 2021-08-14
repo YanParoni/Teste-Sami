@@ -2,7 +2,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  width:100%;
+  width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.6);
 }
@@ -10,12 +10,12 @@
 .modal-main {
   position: relative;
   overflow: none;
-    background: white;
+  background: white;
   width: 40%;
   height: auto;
-  top:50%;
-  left:35%;
-  transform: translate(-25%,-25%);
+  top: 50%;
+  left: 35%;
+  transform: translate(-25%, -25%);
 }
 
 .display-block {
@@ -26,22 +26,29 @@
   display: none;
 }
 
-.btn-grad {background-image: linear-gradient(to right, #EB3349 0%, #F45C43  51%, #EB3349  100%)}
 .btn-grad {
-   margin: 10px;
-   padding: 15px 45px;
-   text-align: center;
-   text-transform: uppercase;
-   transition: 0.5s;
-   background-size: 200% auto;
-   color: white;            
-   box-shadow: 0 0 20px #eee;
-   border-radius: 10px;
-   display: block;
- }
+  background-image: linear-gradient(
+    to right,
+    #eb3349 0%,
+    #f45c43 51%,
+    #eb3349 100%
+  );
+}
+.btn-grad {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
 
- .btn-grad:hover {
-   background-position: right center; 
-   color: #fff;
-   text-decoration: none;
- }
+.btn-grad:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}

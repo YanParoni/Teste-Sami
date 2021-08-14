@@ -44,7 +44,7 @@ class List extends Component {
   render() {
     return (
       <>
-        <SearchBar placeholder='asdsadsad'/>
+        <SearchBar placeholder="asdsadsad" />
         <SearchButton
           handleSubmit={() => this.fetchHeroes()}
           text="Adicionar mais 4 heróis pra lista"
@@ -64,7 +64,9 @@ class List extends Component {
                 </div>
               ))
             ) : (
-              <h1><Loading/></h1>
+              <h1>
+                <Loading />
+              </h1>
             )}
           </div>
         </div>

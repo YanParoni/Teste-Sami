@@ -9,7 +9,7 @@ export default class Input extends Component {
       <>
         <input
           type="text"
-          className='col-12'
+          className="col-12"
           placeholder="Search a hero"
           onChange={this.props.handleInput}
           value={this.props.value}

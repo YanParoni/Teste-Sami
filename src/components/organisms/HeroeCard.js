@@ -25,8 +25,7 @@ export default class HeroeCard extends Component {
   }
 
   render() {
-    const { stats, work, biography, name, src } =
-      this.props;
+    const { stats, work, biography, name, src } = this.props;
 
     return (
       <>

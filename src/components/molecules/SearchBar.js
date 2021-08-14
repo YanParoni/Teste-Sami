@@ -45,19 +45,19 @@ class SearchBar extends Component {
   render() {
     return (
       <div className="container">
-        <div className='row'>
-        <form className="col-12">
-          <Input
-            handleInput={this.handleInput}
-            value={this.state.input}
-            placeholder='Digite aqui :)'
-          />
-          <SearchButton
-            handleSubmit={this.handleSubmit}
-            text='Encontre um herói!'
-            disabled={this.state.input.value? 'true': ''}
-          />
-        </form>
+        <div className="row">
+          <form className="col-12">
+            <Input
+              handleInput={this.handleInput}
+              value={this.state.input}
+              placeholder="Digite aqui :)"
+            />
+            <SearchButton
+              handleSubmit={this.handleSubmit}
+              text="Encontre um herói!"
+              disabled={this.state.input.value ? 'true' : ''}
+            />
+          </form>
         </div>
       </div>
     );
