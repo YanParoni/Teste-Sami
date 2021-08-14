@@ -1,0 +1,9 @@
+export const BASE_URL = '/api/4312260142222781';
+export const BASE_NAME = `${BASE_URL}/name`;
+export const BASE_ID = `${BASE_URL}/id`;
+export const ID_POWER =`${BASE_ID}/powerstats`;
+export const ID_BIOGRAPHY =`${BASE_ID}/biography`;
+export const ID_APPEARANCE =`${BASE_ID}/appearance`;
+export const ID_WORK =`${BASE_ID}/work`;
+export const ID_CONNECTIONS =`${BASE_ID}/connections`;
+export const ID_IMAGE =`${BASE_ID}/image`;

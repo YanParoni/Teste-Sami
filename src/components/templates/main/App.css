@@ -1,0 +1,114 @@
+* {
+  font-family: 'crimfbrg';
+  letter-spacing: 0.08em;
+}
+body,
+html {
+  height: 100%;
+  display: grid;
+}
+.loading {
+  margin: auto;
+}
+.btn-default {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  margin-top: 4px;
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #eb3349 0%,
+    #f45c43 51%,
+    #eb3349 100%
+  );
+}
+.btn-grad {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.hero-card {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.hero-card img {
+  border-radius: 41% 35% 50% 49% / 0% 0% 55% 56%;
+  box-shadow: 0px 10px 13px -7px #000000;
+  margin-top: 10px;
+}
+
+.hero-card img:hover {
+  box-shadow: rgba(247, 246, 246, 0.4) 5px 5px,
+    rgba(228, 135, 145, 0.3) 10px 10px, rgba(228, 135, 145, 0.2) 15px 15px,
+    rgba(228, 135, 145, 0.1) 20px 20px, rgba(228, 135, 145, 0.5) 25px 25px;
+  transform: scale(1.09);
+  transition: 0.3s;
+}
+
+.hero-name {
+  color: #f07167;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  transform: scale(1.09);
+  text-align: center;
+}
+
+.hero-photo {
+  border-radius: 48% 52% 34% 66% / 39% 33% 67% 61%;
+  box-shadow: 0px 10px 13px -7px #000000;
+}
+
+btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #eb3349 0%,
+    #f45c43 51%,
+    #eb3349 100%
+  );
+}
+.btn-grad {
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+
+.buttons {
+  margin: 4px;
+}
